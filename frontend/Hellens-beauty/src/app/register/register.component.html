@@ -1,0 +1,176 @@
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light pl-5"> 
+		<a class="navbar-brand" href="index.html">
+			<img src="assets/img/logo.png" width="100" height="38" alt=""/>
+		</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+		<div class="collapse navbar-collapse pr-5" id="navbarSupportedContent1">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item"> <a class="nav-link" href="#">Help</a></li>
+				<li class="nav-item"> <a class="nav-link" href="#">Terms</a></li>
+				<li class="nav-item"> <a class="nav-link" href="#">Privacy</a></li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<button type="submit" class="btn btn-outline-success my-2 my-sm-0 m-4 border-0 bg-transparent" id="signup"><a href="signup.html" style="color: #9BC134; text-decoration: none;">Sign Up</a></button>
+				<button class="btn btn-outline-success my-2 my-sm-0 active" type="submit"><a href="login.html" style="text-decoration: none;">Log In</a></button>
+			</form>
+		</div>
+	</nav>
+	<section>
+		<div>
+			<img src="assets/img/calculator.png" width="100%" height="200px" />
+		</div>
+		<div class="bg-success txt">
+			<p class="ml-4" style="color: #fff;">NEW CREDIT APPLICATION</p>
+		</div>
+	</section>
+	<div class="container bg-white mb-5 mt-0 border">
+		<div class="container-fluid p-3">
+			<ul id="clothingnav1" class="nav nav-tabs" role="tablist">
+				<li class="nav-item"> <a class="nav-link active mr-1 link-color" href="#home1" id="hometab1" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Applicant Profile</a> 
+				</li>
+				<li class="nav-item"> <a class="nav-link bg-secondary link-color mr-1" href="#paneTwo1" role="tab" id="hatstab1" data-toggle="tab" aria-controls="hats">Applicant Company Details&nbsp;</a> 
+				</li>
+				<li class="nav-item"> <a class="nav-link bg-secondary link-color" href="#paneTwo1" role="tab" id="hatstab2" data-toggle="tab" aria-controls="hats">Credit Request&nbsp;</a> 
+				</li>
+				
+			</ul>
+			<!-- Content Panel -->
+			<div id="clothingnavcontent1" class="tab-content">
+			<div role="tabpanel" class="tab-pane fade show active" id="home1" aria-labelledby="hometab1">
+			<form class="m-3">
+				<div class="mt-4 mb-3">
+					<h5 class="mb-3"><strong>APPLICANT PROFILE</strong></h5>
+				</div>
+				<div class="form-row">
+					<div class="form-group row col-md-6">
+						<label for="lName" class="control-label form-control-sm col-sm-4">Last Name</label>
+						<div class="col-sm-6">
+							<input type="text" class="form-control form-control-sm bg-secondary" id="firstName" placeholder="Name">
+						</div>
+					</div>
+					<div class="form-group row col-md-6">
+						<label for="fName" class="control-label form-control-sm col-sm-4">First Name</label>
+						<div class="col-sm-6">
+							<input type="text" class="form-control form-control-sm bg-secondary" id="lastName" placeholder="Surname">
+						</div>
+					</div>
+					<div class="form-group row col-md-6">
+						<label for="ID" class="control-label form-control-sm col-sm-4">Identity Number</label>
+						<div class="col-sm-6">
+							<input type="text" class="form-control form-control-sm bg-secondary" id="IDNumber" placeholder="ID Number">
+						</div>
+					</div>
+					<div class="form-group row col-md-6">
+						<label for="phone" class="control-label form-control-sm col-sm-4">mobile Number</label>
+						<div class="col-sm-6">
+							<input type="tel" class="form-control form-control-sm bg-secondary" id="phone" placeholder="Cell Number">
+						</div>
+					</div>
+					<div class="form-group row col-md-6">
+						<label for="telephone" class="control-label form-control-sm col-sm-4">Telephone</label>
+						<div class="col-sm-6">
+							<input type="tel" class="form-control form-control-sm bg-secondary" id="tphone" placeholder="Telephone">
+						</div>
+					</div>
+					<div class="form-group row col-md-6">
+						<label for="Gender" class="control-label form-control-sm col-sm-4">Fax Number</label>
+						<div class="col-sm-6">
+							<input type="tel" class="form-control form-control-sm bg-secondary" id="fax" placeholder="Fax">
+						</div>
+					</div>
+					<div class="form-group row col-md-6">
+						<label for="email" class="control-label form-control-sm col-sm-4">Email Address</label>
+						<div class="col-sm-6">
+							<input type="email" class="form-control form-control-sm bg-secondary" id="emailAddress" placeholder="Email">
+						</div>
+					</div>
+					<div class="form-group row col-md-6">
+						<label for="Address" class="control-label form-control-sm col-sm-4">Statement Delivary Method</label>
+						<div class="col-sm-6">
+							<input type="inputAddress" class="form-control form-control-sm bg-secondary" id="address" placeholder="Choose...">
+						</div>
+					</div>
+				</div>
+			</form>
+			<hr>
+			<form class="m-3">
+				
+				<div class="form-row">
+					<div class="form-group col-md-6 inaddress">
+						<h5 class="mb-3"><strong>ADDRESS(PHYSICAL)</strong></h5>
+					</div>
+					<div class="form-group col-md-6 inaddress">
+						<h5 class="mb-3"><strong>ADDRESS (POSTAL)</strong></h5>
+					</div>
+					<div class="form-group row col-md-6">
+						<label for="lName" class="control-label form-control-sm col-sm-4">Unit Name</label>
+						<div class="col-sm-6">
+							<input type="text" class="form-control form-control-sm bg-secondary" id="unitName" placeholder="Unit Name">
+						</div>
+					</div>
+					<div class="form-group row col-md-6">
+						<label for="fName" class="control-label form-control-sm col-sm-4">Unit Name</label>
+						<div class="col-sm-6">
+							<input type="text" class="form-control form-control-sm bg-secondary" id="unitName" placeholder="Unit Name">
+						</div>
+					</div>
+					<div class="form-group row col-md-6">
+						<label for="Street" class="control-label form-control-sm col-sm-4">Street Number</label>
+						<div class="col-sm-6">
+							<input type="inputAddress" class="form-control form-control-sm bg-secondary" id="Street" placeholder="Street Name">
+						</div>
+					</div>
+					<div class="form-group row col-md-6">
+						<label for="Street" class="control-label form-control-sm col-sm-4">Street Number</label>
+						<div class="col-sm-6">
+							<input type="inputAddress" class="form-control form-control-sm bg-secondary" id="Street" placeholder="Street Name">
+						</div>
+					</div>
+					<div class="form-group row col-md-6">
+						<label for="Suburb" class="control-label form-control-sm col-sm-4">Suburb</label>
+						<div class="col-sm-6">
+							<input type="inputAddress" class="form-control form-control-sm bg-secondary" id="Suburb" placeholder="Suburb">
+						</div>
+					</div>
+					<div class="form-group row col-md-6">
+						<label for="Suburb" class="control-label form-control-sm col-sm-4">Suburb</label>
+						<div class="col-sm-6">
+							<input type="inputAddress" class="form-control form-control-sm bg-secondary" id="Suburb" placeholder="Suburb">
+						</div>
+					</div>
+					<div class="form-group row col-md-6">
+						<label for="Code" class="control-label form-control-sm col-sm-4">Area Code</label>
+						<div class="col-sm-6">
+							<input type="zipCode" class="form-control form-control-sm bg-secondary" id="Code" placeholder="Area Code">
+						</div>
+					</div>
+					<div class="form-group row col-md-6">
+						<label for="Code" class="control-label form-control-sm col-sm-4">Area Code</label>
+						<div class="col-sm-6">
+							<input type="zipCode" class="form-control form-control-sm bg-secondary" id="Code" placeholder="Area Code">
+						</div>
+					</div>
+				</div>
+				<div class="d-flex justify-content-center mt-4">
+					<button type="submit" id="btn-sub" class="btn btn-primary form-control-sm rounded-pill">Submit</button>
+				</div>
+				</form>
+				</div>
+				<div role="tabpanel" class="tab-pane fade" id="paneTwo1" aria-labelledby="hatstab1">
+				<p>Content 2</p>
+				</div>
+				<div role="tabpanel" class="tab-pane fade" id="tabDropDownOne1" aria-labelledby="dropdownshoestab1">
+				<p>content 3</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footer-copyright text-center py-3 bg-primary">
+		&copy;2022 Copright:<a href="#">&nbsp;Voltex.co.za</a>
+		</div>
+	</footer>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap-4.4.1.js"></script>
