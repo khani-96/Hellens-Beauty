@@ -1,0 +1,33 @@
+<body>
+    <!-- partial:index.partial.html -->
+    <div class="login-page">
+      <div class="form">
+        <form method="post">
+            <h3>Login</h3>
+            <div class="text-center">
+                <img class="p-2" src="assets/logo.png" width="230" height="210" alt=""/>
+            </div>
+    
+         Username: <div class="form-field">
+            <input type="email" placeholder="Enter your Username" required/>
+          </div>
+          
+         password: <div class="form-field">
+            <input type="password" placeholder="Enter your Password" required/>
+         </div>
+
+         <div style="display: flex; flex-direction: row;">
+            <input type="checkbox" id="yourId" name="yourName">
+            <label class="exampleCheck1">Remember me</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a routerlink=" " class="forgot-pass ml-5 form-control-sm col-sm-8">Forgot Password</a>
+        </div>
+    
+          <button>Login</button>
+          <p class="message">Not registered? <a routerlink="/register">Create an account</a></p>
+        </form>
+      </div>
+    </div>
+    <!-- partial -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+    
+    </body>

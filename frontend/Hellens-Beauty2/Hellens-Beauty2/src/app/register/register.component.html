@@ -1,0 +1,61 @@
+<body>
+    
+    <!-- partial:index.partial.html -->
+    <div class="login-page">
+      <div class="form">
+        <form method="post">
+            <h3 colour="pink">Registration form</h3>
+            <div class="text-center">
+                <img class="p-2" src="assets/logo.png" width="230" height="210" alt=""/>
+            </div>
+
+            <table>
+                <tr>
+                    <td>User:</td>
+                    <td><select class="form-control form-control-sm bg-secondary">
+                        <option selected>Choose...</option>
+                        <option>Admin</option>
+                        <option>Client</option>
+                    </select></td>
+                </tr>
+                <tr>
+                  <td>Firstname:</td>
+                  <td><input type="text" placeholder="Enter your Firstname" required></td>
+                </tr>
+                <tr>
+                    <td>Lastname:</td>
+                    <td><input type="text" placeholder="Enter your Lastname" required></td>
+                  </tr>
+                  <tr>
+                    <td>IDnumber:</td>
+                    <td><input type="text" placeholder="ID required" required></td>
+                  </tr>
+                  <tr>
+                    <td>Email Address:</td>
+                    <td><input type="text" placeholder="Email required" required></td>
+                  </tr>
+                  <tr>
+                    <td>Confirm Email:</td>
+                    <td><input type="text" placeholder="Confirm email" required></td>
+                  </tr>
+                  <tr>
+                    <td>Password:</td>
+                    <td><input type="text" placeholder="Password" required></td>
+                  </tr>
+                  <tr>
+                    <td>Confirm password:</td>
+                    <td><input type="text" placeholder="Confirm password" required></td>
+                  </tr>
+              </table>
+         <p class="message">Already have an account? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a routerlink="/Login">Login</a></p>
+          <button>Submit</button>
+         
+        </form>
+      </div>
+    </div>
+   
+      
+    <!-- partial -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+    
+    </body>
